@@ -1,0 +1,60 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #131415;
+  background: url('counter.jpg') center/cover no-repeat;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  bottom: 2rem;
+}
+button {
+  height: 100px;
+  width: 100px;
+  font-size: 2.5rem;
+  color: white;
+  margin-top: 23rem;
+  border-color: #0062b0;
+  outline: none;
+  border: none;
+  background: #0076ae;
+  background: -webkit-linear-gradient(#0087c7, #0062b0);
+  background: linear-gradient(#0087c7, #0062b0);
+  cursor: pointer;
+  text-align: center;
+  border-radius: 2rem;
+}
+
+#button1 {
+  position: relative;
+  right: 1rem;
+}
+#button2 {
+  position: relative;
+  left: 1rem;
+}
+
+.btn-lg {
+  font-size: 3rem;
+}
+
+button:hover {
+  border: 2px solid #0062b0;
+  box-shadow: 0px 0px 27px 0px rgba(0, 135, 199, 0.8);
+}
+
+h1 {
+  position: relative;
+  top: 350px;
+  font-size: 10rem;
+  color: white;
+}
+
+.display-1 {
+  font-weight: 600;
+}
